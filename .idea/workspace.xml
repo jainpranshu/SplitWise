@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca05e383-b7da-4b85-b42d-39e4e9272d27" name="Changes" comment="">
+    <list default="true" id="ca05e383-b7da-4b85-b42d-39e4e9272d27" name="Changes" comment="Machine Code">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Resources/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/Errors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/ShowConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dto/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enums/ExpenseType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ExpenseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/InMemoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/ShowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/SplitwiseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/FileWriterUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/ShowUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -9,8 +31,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 5
@@ -23,13 +55,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.SplitWise.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/pranshujain/IdeaProjects/SplitWise/src/Main.java"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="SplitWise" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SplitWise" />
+      <option name="PROGRAM_PARAMETERS" value="C:\Users\pranshujain\IdeaProjects\SplitWise\Resources\input.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,15 +83,54 @@
       <option name="presentableId" value="Default" />
       <updated>1710414456696</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1710414494779</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710414494779</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Machine Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Machine Code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>12</line>
+          <line>44</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/service/UserService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/service/UserService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/service/SplitwiseService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/repository/UserRepository.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
