@@ -5,26 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca05e383-b7da-4b85-b42d-39e4e9272d27" name="Changes" comment="Machine Code">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resources/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/Commands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/Errors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/ShowConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/Expense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dto/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/enums/ExpenseType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ExpenseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/InMemoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/ShowService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/SplitwiseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/FileWriterUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ShowUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/Errors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Errors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/Expense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dto/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dto/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ExpenseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ExpenseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/SplitwiseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/SplitwiseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/FileWriterUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/FileWriterUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/ShowUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/ShowUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +35,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2dg0XecazPEyubYrM4O6p90pz1Q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,6 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pranshujain/IdeaProjects/SplitWise",
     "onboarding.tips.debug.path": "C:/Users/pranshujain/IdeaProjects/SplitWise/src/Main.java"
   }
 }]]></component>
@@ -91,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710414494779</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Machine Code">
+      <option name="closed" value="true" />
+      <created>1710454839972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710454839972</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -103,34 +103,54 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/repository/UserRepository.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/service/ShowService.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/service/UserService.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/service/UserService.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="8" />
+          <line>23</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/service/SplitwiseService.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="9" />
+          <line>25</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/repository/UserRepository.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="14" />
+          <url>file://$PROJECT_DIR$/src/service/SplitwiseService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/service/UserService.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/service/UserService.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/service/ExpenseService.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/service/ExpenseService.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/service/ExpenseService.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

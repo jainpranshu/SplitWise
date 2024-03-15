@@ -20,7 +20,7 @@ public class FileWriterUtil {
 			}
 		}
 		catch (IOException e){
-			System.out.println();
+			System.out.println(e);
 		}
 	}
 }

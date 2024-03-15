@@ -10,10 +10,10 @@ import java.util.List;
 import java.util.Map;
 
 public class ExpenseService {
-	User settleBalance(String user_id, List<Expense> expenseList){
+	public User settleBalance(String user_id, List<Expense> expenseList){
 		User user;
 		if (!UserRepository.getStringUserMap().containsKey(user_id))
-			user=new User(user_id,new HashMap<>());
+			user = new User(user_id,new HashMap<>());
 		else
 			user= UserRepository.getStringUserMap().get(user_id);
 

@@ -1,9 +1,13 @@
 package util;
 
-//import constants.ShowConstants;
+import constants.ShowConstants;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.*;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ShowUtil {
@@ -20,7 +24,7 @@ public class ShowUtil {
 	}
 
 	public  void appendToShowList(String output){
-		if (!showList.contains(output) && !output.isEmpty())
+		if (!showList.contains(output) && !output.equals(""))
 			showList.add(output);
 	}
 	public void printOutput(){

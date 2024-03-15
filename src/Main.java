@@ -37,7 +37,7 @@ public class Main {
 				}
 			}
 			catch (RuntimeException e){
-				System.out.println();
+				System.out.println(e);
 			}
 		}
 

@@ -1,3 +1,4 @@
+
 package repository;
 
 import dto.User;
@@ -11,16 +12,16 @@ public class UserRepository {
 	public static Map<String, User> stringUserMap;
 	public static List<User> userList;
 
-	public UserRepository(){
+	public  UserRepository() {
 		stringUserMap = new HashMap<>();
 		userList = new ArrayList<>();
 	}
 
-	public static Map<String , User> getStringUserMap(){
+	public static Map<String, User> getStringUserMap() {
 		return stringUserMap;
 	}
 
-	public static List<User> getUserList(){
-		return  userList;
+	public static List<User> getUserList() {
+		return userList;
 	}
 }
